@@ -1,0 +1,213 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'kanit' , sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #FEFEFE;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.pages{
+    width:100vw;
+    height:100vh;
+    
+}
+#home{
+    background-color:#FEFEFE;
+   
+}
+#circle{
+    width:60vw;
+    height: 60vw;
+    border-radius: 50%;
+    background-color: #FDEBCF;
+    position:relative;
+    left:45vw;
+    bottom:17vw;
+}
+.header{
+    width:90vw;
+    height:7vw;
+    margin:auto;
+    position:relative;
+    left:0vw;
+    bottom:58vw;
+    display: flex;
+    
+    flex-wrap: nowrap;
+    
+    
+}
+ul a{
+    text-decoration: none;
+    position: relative;
+    font-size: 2vw;
+    font-weight: 600;
+    color:#4E3330;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    margin:2vw;
+    position: relative;
+    left:18vw;
+    bottom:3.1vw;
+    
+}
+.contact{
+    height:3vw;
+    position:relative;
+    top:1vw;
+}
+
+ul li a::after {
+    content:'';
+    width:0;
+    height:3px;
+    background:#4E3330;
+    position: absolute;
+    left:0;
+    bottom:-6px;
+    transition:0.5s
+    
+}
+
+ul li a:hover::after {
+    width:100%;
+
+}
+#name{
+    height: 60%;
+    position:absolute;
+    
+    right:73vw;
+    bottom:3.5vw;
+}
+.textbox{
+    height:10vmax;
+    width:45vmax;
+    /* border:2px solid black;  */
+    position:relative;
+    bottom:55vw;
+    left:3vw;
+    display: flex;
+    justify-content: center;
+    margin:8px;
+}
+#namaste{
+    font-size: 4vw;
+    font-weight: 600;
+    color:#4E3330;
+    position:relative;
+    left:12vw;
+
+}
+#myself{
+    font-size: 3.8vw;
+    font-weight: 600;
+    color:#4E3330;
+    position:relative;
+    top:5vw;
+    right:11vw;
+
+}
+.intro{
+    height:20vmax;
+    width:45vmax;
+    
+    position: relative;
+    bottom:54vw;
+    left:3vw;
+}
+.intro p{
+    font-size: 2vw;
+    font-weight: 400;
+    color:#4E3330;
+    position:relative;
+    text-align:justify;
+}
+
+#projects{
+    background-color: #FDEBCF;
+    display: flex;
+    
+}
+#projects h1{
+    font-size: 5vw;
+    font-weight: 400;
+    color:#4E3330;
+    position:relative;
+    top:7vw;
+    left:6vw;
+    
+}
+#projects h2{
+    font-size: 5vw;
+    font-weight: 400;
+    color:#4E3330;
+    position:relative;
+    top:12vw;
+    right:8vw;
+
+}
+#box1{
+    height:50%;
+    width:25%;
+    position:relative;
+    top:22vw;
+    right:28vw;
+    border-top: 3px solid black;
+    
+}
+
+.box img{
+    height:16vw;
+    width:25vw;
+    position:relative;
+    top:1vw;
+}
+
+#box2{
+    height:50%;
+    width:25%;
+    position:relative;
+    top:14vw;
+    right:20vw;
+    border-top: 3px solid black;
+
+}
+#box3{
+    height:50%;
+    width:25%;
+    position:relative;
+    top:8vw;
+    right:10vw;
+    border-top: 3px solid black;
+
+}
+.box h3{
+    font-weight: 500;
+    color:#1C1212;
+    font-size: 2vw;
+}
+.box pre{
+    font-weight: 300;
+    color:#1C1212;
+    font-size: 1.5vw;
+}
+
+
+
+
+#skills{
+    background-color: #FEFEFE;
+}
+#experience{
+    background-color: cadetblue;
+}
