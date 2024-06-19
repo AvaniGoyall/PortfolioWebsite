@@ -202,12 +202,71 @@ ul li a:hover::after {
     font-size: 1.5vw;
 }
 
-
-
-
 #skills{
     background-color: #FEFEFE;
 }
+#title{
+    background-color: lightgray;
+    width:30vw;
+    height:5vw;
+    position: relative;
+    top:1vw;
+    margin:auto;
+    box-shadow:-2px 2px rgb(75, 72, 72);
+    
+    color: #1C1212;
+}
+#title h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 3vw;;
+    
+}
+.container{
+    /* border: 2px solid black; */
+    position: relative;
+    top:3vw;
+    left:0.25vw;
+    height:35vw;
+    width:98.5vw;
+    display:grid;
+    grid-template-rows:repeat(4,auto);
+
+}
+.set{
+    height: 8vw;
+    width:98vw;
+    position: relative;
+    left:0.25vw;
+    background-color:#fcfcfc;
+    box-shadow:-2px 2px 5px 1px rgb(75, 72, 72);
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+    
+    
+    
+}
+.set h3{
+    font-size: 2vw;
+    font-weight: 400;
+    color:#4E3330;
+    margin-left: 1vw;
+    
+}
+.images{
+    height:6vw;
+    width:6vw;
+    position: relative;
+    right:6vw;
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat;
+
+}
+
+
+
 #experience{
     background-color: cadetblue;
 }
