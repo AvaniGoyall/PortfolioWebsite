@@ -1,0 +1,212 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'kanit' , sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.page{
+    height:100vh;
+    width:100vw;
+    background-color: #5e5e5e;
+    
+}
+.logo{
+    height:10vmin; 
+    max-height:80px;
+    width:40vmin; 
+    max-width:300px;
+    /* border:2px solid black; */
+    margin:00px;
+    background-image: url(assets/logo.png);
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+#navbar{
+    height:10vmin;
+    width:80vmin;
+    /* border:2px solid black; */
+    position:relative;
+    left:28vw;
+    bottom:9vh;
+    margin-left: 2px;
+    
+}
+ul a{
+    text-decoration: none;
+    position: relative;
+    font-size: 2.75vmin;
+    font-weight: 540;
+    color:#F5F5F5;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    margin:1vmin;
+    margin-top: 3vmin;
+}
+ul li a::after{
+    content:'';
+    width:0;
+    height:3px;
+    background:lightgrey;
+    position: absolute;
+    left:0;
+    bottom:-6px;
+    transition:0.5s;
+}
+ul li a:hover::after {
+    width:100%;
+}
+ul li a:hover{
+    color:lightgrey
+}
+#git{
+    width:30vmin;
+    height:10vmin;
+    /* border:2px solid black; */
+    position: relative;
+    left:85vw;
+    bottom:18vh;
+}
+#github{
+    height:6vmin;
+    margin-left: 1vw;
+    margin-bottom:0.5vw;
+}
+#linkedin{
+    height:8vmin;
+    margin-left: 2vw;
+}
+#profile{
+    height:75vmin;
+    width:70vmin;
+    position: relative;
+    left:50vw;
+    bottom:4vw;
+    background: rgba(255, 255, 255, 0.2); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 15px; 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
+    
+}
+#pic{
+    height:100vmin;
+    width:70vmin;
+    position: relative;
+    bottom:11.5vw;
+    
+}
+.head{
+    height:20vmin;
+    width:70vmin;
+    position: relative;
+    bottom: 82vh;
+    left: 9vw;
+   
+    
+}
+.head h1{
+    text-align: center;
+    font-size: 3vw;
+    color: #F3D538;
+}
+.intro{
+    height:40vmin;
+    width:90vmin;
+   
+    position:relative;
+    left:5vw;
+    bottom:80vh;
+    color:#F5F5F5;
+    text-align: justify;
+    font-size: 1.5vw;
+    line-height: 2vw;
+
+
+}
+#myskills {
+    width:50vmin;
+    margin: auto;
+    color:#F5F5F5;
+    font-size: 1.8vw;
+    background: rgba(255, 255, 255, 0.2); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 15px; 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;  
+    position: relative;
+    top:1vw;
+     
+}
+
+#languages{
+    width:90vmin;
+    height:30vmin;
+    background: rgba(255, 255, 255, 0.2); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 15px; 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    left:3vw;
+    top:10vh;
+
+}
+#frames{
+    width:90vmin;
+    height:30vmin;
+    background: rgba(255, 255, 255, 0.2); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 15px; 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    left:54vw;
+    bottom:20vh;
+}
+#softwares{
+    width:90vmin;
+    height:30vmin;
+    background: rgba(255, 255, 255, 0.2); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 15px; 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    bottom:10vh;
+    left:3vw;
+
+}
+#others{
+    width:90vmin;
+    height:30vmin;
+    background: rgba(255, 255, 255, 0.2); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 15px; 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    left:54vw;
+    bottom:40vh;
+}
+.page h3{
+    color: #F3D538;
+    font-size:1.5vw;
+    font-weight:500;
+    text-align: center;
+    margin-top:0.5vw;
+}
