@@ -131,7 +131,7 @@ ul li a:hover{
     left:5vw;
     bottom:80vh;
     color:#F5F5F5;
-    text-align: justify;
+    text-align: left;
     font-size: 1.5vw;
     line-height: 2vw;
 
@@ -164,7 +164,37 @@ ul li a:hover{
     position: relative;
     left:3vw;
     top:10vh;
+}
+#cpp{
+    height:9vw;
+    position: absolute;
+    left:-1vw;
+    top:3vw;
 
+}
+#c{
+    height:7vw;
+    position: absolute;
+    left:9vw;
+    top:4vw;
+}
+#html{
+    height:7vw;
+    position: absolute;
+    left:14vw;
+    top:4vw;
+}
+#css{
+    height:8vw;
+    position: absolute;
+    left:23vw;
+    top:3.5vw;
+}
+#js{
+    height:7vw;
+    position: absolute;
+    left:29vw;
+    top:4vw;
 }
 #frames{
     width:90vmin;
@@ -178,6 +208,32 @@ ul li a:hover{
     left:54vw;
     bottom:20vh;
 }
+#django{
+    height:8vw;
+    position: absolute;
+    left:-0.05vw;
+    top:4vw;
+
+}
+#numpy{
+    height:7vw;
+    position: absolute;
+    left:4vw;
+    top:4vw;
+}
+#pandas{
+    height:5vw;
+    position: absolute;
+    left:22vw;
+    top:5.25vw;
+}
+#matplotlib{
+    height:5vw;
+    position: absolute;
+    left:35vw;
+    top:5vw;
+}
+
 #softwares{
     width:90vmin;
     height:30vmin;
@@ -188,21 +244,24 @@ ul li a:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
     position: relative;
     bottom:10vh;
-    left:3vw;
+    left:30vw;
 
 }
-#others{
-    width:90vmin;
-    height:30vmin;
-    background: rgba(255, 255, 255, 0.2); 
-    border: 1px solid rgba(255, 255, 255, 0.3); 
-    border-radius: 15px; 
-    backdrop-filter: blur(10px); 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
-    position: relative;
-    left:54vw;
-    bottom:40vh;
+#canva{
+    height:7vw;
+    position: absolute;
+    left:8vw;
+    top:4vw;
+
 }
+#figma{
+    height:7vw;
+    position: absolute;
+    left:25vw;
+    top:4vw;
+}
+
+
 .page h3{
     color: #F3D538;
     font-size:1.5vw;
@@ -210,3 +269,167 @@ ul li a:hover{
     text-align: center;
     margin-top:0.5vw;
 }
+#ptitle{
+    height:30vmin;
+    width:50vmin;
+    
+    position: relative;
+    left:3vw;
+    top:12vh;
+}
+#ptitle h1{
+    color: #F5F5F5;
+    font-size:4.75vw;
+    font-weight: 400;
+   
+}
+#ptitle h2{
+    color: #F3D538;
+    text-align: center;
+    
+}
+#ptitle h4{
+    color: #F5F5F5;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#jap{
+    height:30vmin;
+    width:40vmin;
+    background-color: rgb(42, 41, 41);
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);;
+    position: relative;
+    left:25vw;
+    bottom: 20vh;
+}
+#pmx{
+    height:30vmin;
+    width:40vmin;
+    background-color: rgb(42, 41, 41);
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);;
+    position: relative;
+    left:48vw;
+    bottom:80vh;
+
+}
+#ev{
+    height:30vmin;
+    width:40vmin;
+    background-color: rgb(42, 41, 41);
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);;
+    position: relative; 
+    left:72vw;
+    bottom:50vh;
+}
+#cloud{
+    height:30vmin;
+    width:40vmin;
+    background-color: rgb(42, 41, 41);
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);;
+    position: relative; 
+    left:48vw;
+    bottom:70vh;
+}
+#projects a{
+    text-decoration: none;
+}
+.tile:hover {
+    transform: scale(1.12); 
+    background-color:  #F3D538 !important; 
+    transition: all 0.5s ease;
+}
+
+.tile:hover h2, .tile:hover h4 {
+    color: black !important; 
+}
+
+#experiencebox{
+    overflow-y: auto;
+    
+    height:80vmin;
+    width:90vmin;
+    background-color: rgb(42, 41, 41);
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);;
+    position: relative; 
+    top:12vh;
+    left:8vw;
+}
+#experiencebox h1{
+    color:white;
+    font-size: 2.5vw;
+    font-weight: 300;
+    margin-left: 10vw;
+    margin-top: 3vw;
+}
+#experiencebox h2{
+    color: #F3D538;
+    font-weight: 200;
+    position: relative;
+    top:2vw;
+    left:1vw;
+}
+#experiencebox h3{
+    color: #ecebe6;
+    font-weight: 200;
+    font-size: 1.5vw;
+    position: relative;
+    top:2vw;
+    left:2vw;
+    text-align: left;
+    
+}
+#contactform{
+    width:80vmin;
+    height:80vmin;
+    background: rgba(255, 255, 255, 0.2); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 15px; 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    left:57vw;
+    bottom:32vw;
+}
+.contact-form h2 {
+    text-align: center;
+    font-size:2.5vw;
+    color:#F3D538;
+}
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+.contact-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 1.25vw;
+    margin-left: 1vw;
+}
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    width:32vw;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 1vw;
+}
+.contact-form .form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+.contact-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left:15vw;
+}
+.contact-form button:hover {
+    background: #0056b3;
+}
+
